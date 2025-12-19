@@ -1,7 +1,6 @@
 # ************************************Solution: 1*******************************
 class Car:
     total_car = 0
-
     def __init__(self, userbrand, usermodel):
         self.__brand = userbrand  # Kinda Private
         self.__model = usermodel # read-Only
